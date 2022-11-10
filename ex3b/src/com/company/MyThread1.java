@@ -81,7 +81,7 @@ public class MyThread1 extends Thread
 
     public synchronized void run()
     {
-        for(int i = 0 ; i < 10 ; ++i)
+        for(int i = 0 ; i < 20 ; ++i)
         {
             lock();
             System.out.println( this.id );

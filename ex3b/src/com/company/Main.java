@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws IOException
     {
         int n ;
-        n = 100;
+        n = 5;
         ArrayList<MyThread1> threads = new ArrayList<>();
         for(int i = 1 ; i <= n ; ++i )
         {
